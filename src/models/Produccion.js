@@ -1,4 +1,5 @@
 "use strict";
+//  regla de producción en la gramática del lenguaje.
 module.exports = class Produccion {
     constructor(args){
         const { produccion = null, produce = [] } = args;
@@ -7,7 +8,7 @@ module.exports = class Produccion {
         this.produce = produce;
     }
     /**
-     * Devuelve el primer elemento del producido
+     * Devuelve el primer elemento del producido de la lista
      */
     slice(){
         return this.produce[0];

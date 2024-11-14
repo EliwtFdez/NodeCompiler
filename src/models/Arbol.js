@@ -7,6 +7,9 @@ module.exports = class Arbol {
         this.childs = childs;
         this.full = false;
     }
+    /**
+    *  El método setChild(newChild) permite agregar un nuevo hijo al nodo, actualizando la estructura.
+    */
 
     setChild(newChild){
         let isFollow = true;

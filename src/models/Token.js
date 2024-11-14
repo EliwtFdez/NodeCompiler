@@ -1,4 +1,5 @@
 "use strict";
+
 module.exports = {
     constructor(args){
         const { element = "", type= "", line = 0 } = args;

@@ -1,4 +1,5 @@
 "use strict";
+// definicion de tokes
 const caracter = [
     {
         caracter: '.',

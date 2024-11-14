@@ -1,4 +1,5 @@
 "use strict";
+// ciclos y estructura de datos
 const palabrasReservadas = [
     'REST',
     'CONS',
